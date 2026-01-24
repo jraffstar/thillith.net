@@ -29,7 +29,7 @@ h1 {
 }
 
 .topbar-h3-right {
-    color: #b2e1ff;
+    color: #d0b2ff;
     float: right; padding: 0px 15px;  margin-top: 10px;
     
 }
@@ -74,5 +74,5 @@ p {
 }
 
 .background-blur {
-background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: auto
+background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: 100%
 }
