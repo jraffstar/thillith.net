@@ -3,7 +3,7 @@
     background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
 }
 
-a {
+p {
     text-decoration: none;
     color: inherit;
         text-shadow:
