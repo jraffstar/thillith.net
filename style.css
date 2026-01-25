@@ -1,9 +1,7 @@
 .home {
     margin: 0;
-    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: 100%
+    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
 }
-
-
 
 a {
     text-decoration: none;
@@ -74,5 +72,5 @@ p {
 }
 
 .background-blur {
-background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: 100%
+background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
 }
