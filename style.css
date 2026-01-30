@@ -1,9 +1,6 @@
 @media (max-width: 600px) {
-    .topbar-h3 {
+  .topbar-h3 {
     visibility: hidden;
-    .music-images {
-    flex-direction: column;
-    gap: 24px;
   }
 }
 
