@@ -95,4 +95,5 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
 .music-images {
     display: flex;
     gap: 20%;
+    margin: 10%
 }
