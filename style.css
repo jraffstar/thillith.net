@@ -93,5 +93,7 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
 }
 
 .music-images {
-    padding: 20%
+    display: flex;
+    gap: 20px;
+    align-items: center
 }
