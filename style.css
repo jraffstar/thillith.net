@@ -97,6 +97,9 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
     display: flex;
     gap: 20%;
     justify-content: center;
-    align-items: center;
+    align-items: center
+}
+
+.text-centerd {
     text-align: center
 }
