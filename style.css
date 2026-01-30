@@ -71,7 +71,13 @@ h1 {
 p {
     padding: 4px; background-color: #00000020; color: #b2e1ff; border-radius: 12px;
     /*width: 60%;*/
-    text-align: left;
+    text-align: left
+}
+
+h2 {
+    padding: 4px; background-color: #00000020;
+    color:#b2e1ff; border-radius: 12px;
+    text-align: left
 }
 
 .sidebartext {
