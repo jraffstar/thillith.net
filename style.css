@@ -67,6 +67,10 @@ h1 {
     color: #b2e1ff
 }
 
+.bottom-bar {
+    border-top: 5px #d0b2ff; background-color: #00000080; 
+}
+
 .error {
     margin-left: 10%; margin-right: 10%; margin-top: 10px;
     background-color: #00000070;
