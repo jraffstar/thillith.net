@@ -133,5 +133,9 @@ background-image: url("/static/backround-blur.jpg"); background-repeat: no-repea
 }
 
 .webrings {
-    padding-inline: 8px;
+    padding-left: 4%
+}
+
+.spaecing {
+    padding-inline: 8px
 }
