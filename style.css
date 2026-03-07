@@ -31,21 +31,25 @@ h1 {
 }
 
 .instagram {
-    float: right; height: 40px; width: 40px; background-image: url(static/instagram.jpg); background-size: contain; background-repeat: no-repeat; padding-left: 5px
+    float: right; height: 40px; width: 40px; background-image: url(static/instagram_b2e1ff.jpg); background-size: contain; background-repeat: no-repeat; padding-left: 5px
 }
 .topbar {
-    min-height: 40px; padding: 10px 15px; background: #ffd1dc; border-bottom: 5px #d0b2ff solid; background-attachment: scroll
+    min-height: 40px; padding: 10px 15px; background-image: url(/animated/topbar.png); border-bottom: 5px #d0b2ff solid; background-attachment: scroll
 }
 
 .topbar-h3 {
-    float: left; margin-left: 50px;  margin-top: 10px; color: #71368a; position: absolute
+    float: left; margin-left: 50px;  margin-top: 8px; color: #71368a; position: absolute
 }
 
 .topbar-h3-right {
-    color: #71368a;
-    float: right; padding: 0px 8px;  margin-top: 10px
-    
+    color: #b2e1ff;
+    float: right; padding: 8px 8px;
+        text-decoration: none;
+        text-shadow:
+        0 0 7px #b2e1ff,
+        0 0 14px #b2e1ff
 }
+
 
 .icon {
     float: left;
