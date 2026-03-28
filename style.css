@@ -4,6 +4,7 @@
   }
 }
 
+
 img {
     max-width: 100%;
     height: auto
@@ -66,9 +67,17 @@ h1 {
 
 .main {
     margin-left: 10%; margin-right: 10%; margin-top: 10px;
-    background-color: #00000070;
+    background-color: #00000000;
     border: solid 2px #d0b2ff; /*border-top: transparent;*/ border-radius: 12px;/*border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;*/ padding: 5px;
-    color: #b2e1ff
+    color: #b2e1ff;
+    background: linear-gradient(
+        50deg,
+        rgba(60, 53, 172, 8) 0%,
+        rgba(142, 112, 233, 0.4) 33.3%,
+        rgba(233, 154, 227, 0.6) 100%,
+        rgba(60, 53, 172, 8) 33.3%
+    );
+
 }
 
 .main-1-3 {
