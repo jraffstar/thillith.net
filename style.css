@@ -11,8 +11,19 @@ img {
 }
 
 .home {
+
     margin: 0;
-    background-image: url("/static/backround.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+    background: url("/static/backround.jpg");
+    background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+}
+
+.home::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("../animated/sparkles.gif");
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 a {
@@ -35,7 +46,7 @@ h1 {
     float: right; height: 40px; width: 40px; background-image: url(static/instagram_b2e1ff.jpg); background-size: contain; background-repeat: no-repeat; padding-left: 5px
 }
 .topbar {
-    min-height: 40px; padding: 10px 15px; background-image: url(/animated/topbar.png); border-bottom: 5px #d0b2ff solid; background-attachment: scroll
+    min-height: 40px; padding: 10px 15px; background-image: url(/animated/topbar.gif); border-bottom: 5px #d0b2ff solid; background-attachment: scroll
 }
 
 .topbar-h3 {
@@ -130,7 +141,16 @@ h2 {
 
 .background-blur {
     margin: 0;
-background-image: url("/static/backround-blur.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+    background-image: url("/static/backround-blur.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+}
+
+.background-blur::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("../animated/sparkles.gif");
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .music-images {
